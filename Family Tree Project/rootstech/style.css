@@ -1,0 +1,131 @@
+
+* { /* star applies things to every element, sort of like the wild card, eliminating margins and padding and 
+set a default font */
+	margin:0;
+	padding:0px;
+	-webkit-text-size-adjust:none; 
+	font-family: 'Merriweather', serif;
+	background-image: url("img_tree.png");
+		background-repeat: no-repeat;
+	
+}
+a:hover {
+  background-color: lightgreen;
+}
+
+
+header{
+	font-size: 120%;
+	font-style: bold;
+	border-color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-bottom: 1px;
+	padding-right: 20px;
+}
+
+nav{
+	font-size: 60%;
+	font-style: bold;
+	text-align: right;
+	background-repeat: no-repeat;
+}
+h1{
+    padding: 5px;
+	text-align:center;
+	
+	}
+p {
+	padding: 5px;
+	text-align:center;	
+}
+.reg {
+	text-align: right
+	;
+}
+.tabs {
+	align: center;
+}
+
+body{
+	background: white;
+	color: black;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	background-position: center;
+	background-image: url('family_tree22.jpg');
+	padding-bottom: 20px;
+	
+}
+
+#deleteform {
+	text-align: center;
+} 
+
+legend { 
+  display: block;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: none;
+}
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ display: block;
+ position: relative;
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ padding: 15px 0px 15px 0px;
+ text-align: center;
+ color: black;
+ background-color: #e4f4fd;
+ 
+}
+#insinfo {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.contact {
+	text-align: center;
+}
+.contact {
+	text-align: center;
+}
+.logoff {
+	text-align: right;
+}
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+	transition: 0.3s;
+	border-radius: 3px;
+	box-shadow: -1px -1px 4px 1px #00000052;
+	background-color: #e4f4fd
+	
+}
+.link {
+	text-decoration: none;
+	color: black;
+}
