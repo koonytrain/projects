@@ -1,4 +1,4 @@
-This project was completed by using Python with PyCharm IDE for my Intro to Application Development class. </br>
-We were given the raw_data.txt file to figure out what errors there were within the data. </br>
-Once the errors were fixed we put it into the cleaned_data.txt file. </br>
+This project was completed by using Python with PyCharm IDE for my Intro to Application Development class. 
+We were given the raw_data.txt file to figure out what errors there were within the data. 
+Once the errors were fixed we put it into the cleaned_data.txt file. 
 This file was then filtered multiple ways using the create_data_analysis_reports.py file.
