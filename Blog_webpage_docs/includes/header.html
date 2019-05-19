@@ -1,0 +1,36 @@
+<?php session_start(); ?>
+<html>
+<head>
+	<title><?php echo $page_title; ?></title>	
+	<link rel="stylesheet" type="text/css" href="includes/forms.css">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+</head>
+<header align="center">
+<div id="header">
+	<h1>Milwaukee Brewers Fan Page</h1>
+	<h2>Home of the reigning Central Division Champions!!</h2></br></br>
+</div>
+<br/><br/><br/>
+<div align="center">
+<img src="mblogo.png" alt="Ball and Glove Logo" style="align:left;width:60px;height:60px;">
+<!--Spaces to move the image away from the button -->
+&nbsp;&nbsp;&nbsp;&nbsp;
+<?php echo '<button class="button"><a class="link" href="index.php">HOME</a></button> | ';?>
+<?php 
+
+if($_SESSION['user_id'] == 4) {
+echo '<button class="button"><a class="link" href="createpost.php"><strong>Create</strong> a Post</a></button> | ';
+}
+// Create a login/logout/register link:
+if ( (isset($_SESSION['user_id'])) && (basename($_SERVER['PHP_SELF']) != 'logout.php') ) {
+	echo '<button class="button"><a class="link" href="password.php"><strong>Change Password</strong></a></button> | <button class="button"><a class="link" href="logout.php"><strong>Logout</strong></a></button>';
+} else {
+	echo '<button class="button"><a class="link" href="login.php"><strong>Login</strong></a></button> | <button class="button"><a class="link" href="register.php">Register</a></button>';
+}
+?>
+<!--Spaces to move the image away from the button -->
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="mblogo.png" alt="Ball and Glove Logo" style="align:right;width:60px;height:60px;">
+</div>
+<br/><br/></header>
